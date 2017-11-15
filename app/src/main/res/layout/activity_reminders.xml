@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_grep"
+    android:paddingLeft="64dp"
+    android:paddingRight="64dp"
+    android:paddingTop="64dp"
+    android:paddingBottom="64dp"
+    tools:context="com.qindou.myreminder.myreminders.RemindersActivity">
+
+    <ListView
+        android:id="@+id/reminders_list_view"
+        android:layout_width="522dp"
+        android:layout_height="658dp"
+        android:background="@color/dark_grep"
+
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:listitem="@layout/reminders_row"
+        />
+
+</RelativeLayout>
